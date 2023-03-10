@@ -62,7 +62,7 @@ SECRET_KEY = "django-insecure-i5$7sx&=v1buwb(8-dfk#ja)%bzc+v)#ch&!4ogt2=-p&__v*t
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv("DEBUG", False)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["link do Generate Domain sem https", "0.0.0.0"]
 
 # Application definition
 MY_APPS = ["user", "address", "cart", "products", "orders"]
